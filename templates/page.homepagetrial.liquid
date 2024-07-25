@@ -1,46 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Page Title</title>
-{{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
-</head>
-<body>
-
-<div class="banner-carousel">
-  <div class="banner-slide">
-    <div class="content">
-      <div class="image">
-        <img src="{{ 'clearerX3.png' | asset_url }}" alt="Banner Image 1">
-      </div>
-      <div class="text">
-        <h3>Deep Moo Vr</h3>
-        <h1>SPACCOM X3 Pro</h1>
-        <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud spatial data files and high-quality 3D models</p>
-        <button>Learn more</button>
-      </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    {{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+    
+    <div class="banner">
+  <div class="content">
+    <div class="imagecombo">
+    <div class="image">
+      <img src="{{ 'clearerX3.png' | asset_url }}" alt="Banner Image">
+    </div>
+    <div class="image-shadow">
+      <img src="{{ 'croppedshadow.png' | asset_url }}" alt="Shadow">
+    </div>
+    </div>
+    <div class="text">
+      <h3>Deep Moo Vr</h3>
+      <h1>SPACCOM X3 Pro</h1>
+      <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models</p>
+    <button>Learn more</button>
     </div>
   </div>
-
-  <div class="banner-slide">
-    <div class="content">
-      <div class="image">
-        <img src="{{ 'clearerX3.png' | asset_url }}" alt="Banner Image 2">
-      </div>
-      <div class="text">
-        <h3>Another Banner Title</h3>
-        <h1>Product XYZ</h1>
-        <p>This is another great product with amazing features.</p>
-        <button>Shop Now</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Add more banner slides as needed -->
+     
 </div>
-
-<script src="{{ 'homepg-scripts-v2.js' | asset_url }}"></script>
-
-</body>
+    
+  </body>
 </html>
