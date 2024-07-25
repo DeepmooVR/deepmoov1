@@ -7,9 +7,11 @@ background: linear-gradient(#9edeff,#007aff);
   height: 800px;
   width: 100%;
   /* border: 4px solid black; */
+  
 }
 .content{
   display: flex;
+  align-items: center;
 }
 .text{
   width: 50vw;
