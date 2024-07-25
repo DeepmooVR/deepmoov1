@@ -11,6 +11,24 @@
   "sections": {
     "custom_section_9ADjW8": {
       "type": "custom-section",
+      "blocks": {
+        "text_z3jwYk": {
+          "type": "text",
+          "settings": {
+            "text": "hello theres omg it freaking works"
+          }
+        },
+        "text_6LDdwf": {
+          "type": "text",
+          "settings": {
+            "text": "another one wow this is crazy"
+          }
+        }
+      },
+      "block_order": [
+        "text_z3jwYk",
+        "text_6LDdwf"
+      ],
       "settings": {
         "text": "sdhsgkafjs"
       }
