@@ -1,4 +1,13 @@
-<h1>hello world</h1>
-<head>
-  {{ 'homepg-style.css' | asset_url | stylesheet_tag }}
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    {{ 'homepg-style.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <h2>hey</h2>
+  </body>
+</html>
