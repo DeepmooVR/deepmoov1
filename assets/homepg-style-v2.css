@@ -3,6 +3,7 @@ h1, h3, p {
   color: white;
 }
 .banner{
+  padding: 100px;
 background: linear-gradient(#9edeff,#007aff);
   height: 800px;
   width: 100%;
