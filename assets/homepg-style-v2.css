@@ -4,3 +4,8 @@ body {
 h1 {
   color: pink;
 }
+.banner{
+  background-image: -moz-linear-gradient(#9edeff, #007aff);
+  height: 800px;
+  width: 100%;
+}
