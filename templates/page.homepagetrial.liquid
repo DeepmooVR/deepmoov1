@@ -7,7 +7,18 @@
     {{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    <h1>hello world</h1>
-    <h2>hey</h2>
+    
+    <div class="banner">
+  <div class="content">
+    <div class="text">
+      <h1>banner</h1>
+      <p>{{ section.settings.banner_description }}</p>
+    </div>
+    <div class="image">
+      <img src="{{ X3pro.png | img_url: 'large' }}" alt="Banner Image">
+    </div>
+  </div>
+</div>
+    
   </body>
 </html>
