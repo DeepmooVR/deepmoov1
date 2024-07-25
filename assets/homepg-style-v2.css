@@ -35,6 +35,8 @@ h1{
 }
 .imagecombo{
   display: block;
+  align-content: right;
+  text-align:right;
 }
 .image-shadow{
   width: 50vw;
