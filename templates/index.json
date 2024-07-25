@@ -15,22 +15,15 @@
         "text_z3jwYk": {
           "type": "text",
           "settings": {
-            "text": "hello theres omg it freaking works"
-          }
-        },
-        "text_6LDdwf": {
-          "type": "text",
-          "settings": {
-            "text": "another one wow this is crazy"
+            "text": "Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models"
           }
         }
       },
       "block_order": [
-        "text_z3jwYk",
-        "text_6LDdwf"
+        "text_z3jwYk"
       ],
       "settings": {
-        "text": "sdhsgkafjs"
+        "text": "SPACCOM X3 Pro"
       }
     },
     "rich_text": {
