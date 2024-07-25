@@ -15,3 +15,7 @@ background: linear-gradient(#9edeff,#007aff);
 h1{
   font-weight: 500;
 }
+
+.image{
+  width: 50vw;
+}
