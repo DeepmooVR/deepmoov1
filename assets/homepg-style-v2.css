@@ -17,7 +17,7 @@ background: linear-gradient(#9edeff,#007aff);
 .content{
   display: flex;
   align-items: center;
-      text-align: center;
+  text-align: center;
 }
 .text{
   width: 35vw;
