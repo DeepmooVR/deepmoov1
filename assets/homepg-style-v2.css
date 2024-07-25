@@ -11,7 +11,9 @@ background: linear-gradient(#9edeff,#007aff);
 .content{
   display: flex;
 }
-
+.text{
+  width: 50vw;
+}
 h1{
   font-weight: 500;
 }
