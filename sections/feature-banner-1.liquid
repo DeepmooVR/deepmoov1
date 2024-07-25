@@ -7,7 +7,30 @@
     {{ 'feature-banner-1.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    
+    <div class="banner">
+  <div class="content">
+    <div class="imagecombo">
+    <div class="image">
+      <img src="{{ 'clearerX3.png' | asset_url }}" alt="Banner Image">
+    </div>
+    <div class="image-shadow">
+      <img src="{{ 'croppedshadow.png' | asset_url }}" alt="Shadow">
+    </div>
+    </div>
+    <div class="text">
+      <h2>Deep Moo Vr</h2>
+      <h1>{{ section.settings.text }}</h1>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+        {% endfor %}
+    <button class="learnmore">Learn more</button>
+    </div>
+  </div>
+     
+</div>
+        
+  </body>
+</html>
 
 
 {% schema %}
