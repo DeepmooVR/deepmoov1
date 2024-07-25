@@ -29,6 +29,12 @@ h1{
 .image{
   width: 50vw;
 }
+.imagecombo{
+  display: block;
+}
+.image-shadow{
+  width: 50vw;
+}
 
 button{
   padding: 20px 40px;
