@@ -10,6 +10,26 @@ background: linear-gradient(#9edeff,#007aff);
   /* border: 4px solid black; */
   
 }
+
+.banner-carousel {
+  position: relative;
+  width: 100%;
+  height: 800px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.banner-slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-slide.active {
+  display: block;
+}
 .content{
   display: flex;
   align-items: center;
