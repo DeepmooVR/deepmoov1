@@ -53,3 +53,6 @@ button :hover{
 .learnmore:hover{
   background-color:white;
 }
+.learnmore{
+  margin-top: 50px;
+}
