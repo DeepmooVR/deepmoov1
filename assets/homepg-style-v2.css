@@ -21,6 +21,9 @@ background: linear-gradient(#9edeff,#007aff);
 h1{
   font-weight: 500;
 }
+.content h1{
+  font-size: 100px;
+}
 
 .image{
   width: 50vw;
