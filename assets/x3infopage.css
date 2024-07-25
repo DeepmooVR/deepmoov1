@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-family: 'SF Pro Display', sans-serif;
+    --fs-xl: 3.5rem;
+    --fs-600: 2rem;
+    --fs-400: 1.8rem;
+}
+
+@media (min-width: 40em) {
+    :root {
+        --fs-xl: 5rem;
+        --fs-600: 3rem;
+        --fs-400: 2rem;
+    }
+    
+}
+
+.container {
+    display: block;
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+.hero {
+    height: fit-content;
+    padding: 0 0 5rem;
+}
+
+.cta {
+    text-align: center;
+}
+
+.x3-pro-intro .cta-desc {
+    color: white;
+    font-size: var(--fs-400);
+}
+
+.cta-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: var(--fs-400);
+    font-weight: medium;
+    font-family: inherit;
+    background: #0071E3;
+    margin-top: 3rem;
+    padding: 12px 21px;
+    border-radius: 20px;
+}
+
+.x3-pro-display {
+    position: relative;
+}
+
+.x3-pro-display img {
+    padding: 0;
+    margin-top: 3rem;
+    display: block;
+    width: 99vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.x3-pro-display .container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.x3-pro-display {
+    text-align: center;
+}
+
+.x3-pro-display .title-heading {
+    padding-top: 5.5rem;
+    font-size: var(--fs-xl);
+}
+
+.x3-pro-display .title-subheading {
+    font-size: var(--fs-600);
+    font-weight: 400;
+}
+
+.x3-pro-display .cta-desc {
+    padding-top: 3rem;
+    font-size: var(--fs-400);
+}
+
+.x3-pro-display .title,
+.x3-pro-display .cta {
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.x3-pro-models {
+    padding-bottom: 260px;
+}
+
+.x3-pro-models .title-heading,
+.x3-pro-parts .title-heading {
+    text-align: center;
+    font-size: var(--fs-xl) !important;
+    padding-top: 5.5rem;
+}
+
+.home-2content {
+    width: 950px;
+    margin: 50px auto 0px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    position: relative;
+    z-index: 12;
+}
+
+.home-2pannel {
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+    opacity: 0
+}
+
+.home-2pannel.active {
+    position: relative;
+    z-index: 22;
+    opacity: 1
+}
+
+.home-2pannel iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.x3-pro-parts, .x3-pro-chip, .x3-pro-hd, .x3-pro-speed {
+    background-color: black;
+}
+
+.x3-pro-parts .img-parts,
+.x3-pro-parts .img-specs {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.x3-pro-parts .title-heading {
+    color: white;
+}
+
