@@ -1,6 +1,23 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Feature Banner",
+    "settings": [{
+      "type": "text",
+      "id":"text",
+      "label":"Heading"
+    }],
+    "presets": [{
+      "name": "Custom Banner 2"
+    }],
+    "tag":"section",
+    "class": "custom-section",
+    "limit": 1,
+    "blocks":[{
+      "name": "Description",
+      "type":"text",
+      "settings": [{"type": "text",
+      "id":"text",
+      "label":"Description"}]
+    }]
   }
 {% endschema %}
