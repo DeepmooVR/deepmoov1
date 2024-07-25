@@ -31,17 +31,17 @@ h1{
 }
 
 .image{
-  width: 50vw;
+  width: 50%;
 }
 .imagecombo{
   display: block;
   align-content: right;
   text-align:right;
   padding-right: 40px;
-  width:50vw;
+  width:50%;
 }
 .image-shadow{
-  width: 50vw;
+  width: 50%;
 }
 
 button{
