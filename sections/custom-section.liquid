@@ -21,7 +21,9 @@
     <div class="text">
       <h2>Deep Moo Vr</h2>
       <h1>{{ section.settings.text }}</h1>
-      <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models</p>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+        {% endfor %}
     <button class="learnmore">Learn more</button>
     </div>
   </div>
