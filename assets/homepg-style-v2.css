@@ -48,3 +48,6 @@ button{
 button :hover{
   background-color: white;
 }
+.learnmore:hover{
+  background-color:white;
+}
