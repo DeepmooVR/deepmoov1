@@ -8,6 +8,7 @@
   );
   background-size: 50% 50%; /* Adjust the size of the gradient circle */
   position: relative;
+  background-repeat: none;
 }
 .feature-banner-actual-image {
   width: 100%;
