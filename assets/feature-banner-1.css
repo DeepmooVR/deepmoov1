@@ -5,4 +5,9 @@
 
 .feature-banner-actual-image{
   width: 100%;
+  
+}
+
+h1, h3, h2, p {
+  color:#007AFF;
 }
