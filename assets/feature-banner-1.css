@@ -1,30 +1,45 @@
-.feature-banner{
+.feature-banner {
   width: 100%;
   height: 800px;
   background-image: radial-gradient(
-    farthest-corner at 40px 40px,
+    farthest-corner at 40% 40%, /* Adjust this for different positions */
     #fff 0%,
     #087FFF 100%
   );
+  position: relative;
 }
 
-.feature-banner-actual-image{
+.feature-banner-actual-image {
   width: 100%;
-  align-self: bottom;
-
+  /* Ensures the image maintains aspect ratio */
+  object-fit: cover;
 }
 
-.feature-banner h1 {
-  color:#007AFF;
+.feature-banner h1,
+.feature-banner h2,
+.feature-banner p {
+  color: #007AFF;
 }
-.feature-banner h2{
-   color:#007AFF;
-}
-.feature-banner p{
-   color:#007AFF;
-}
-.feature-banner .text{
+
+.feature-banner .text {
   position: relative;
   top: 100px;
   left: 20%;
+  /* Ensure content text is properly positioned */
+}
+
+.banner1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This pushes the image to the bottom */
+  height: 100%;
+}
+
+.feature-banner-image {
+  /* Make sure image container spans the full width */
+  width: 100%;
+  /* Pushes the image to the bottom of the container */
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
 }
