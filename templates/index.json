@@ -26,76 +26,6 @@
         "text": "SPACCOM X3 Pro"
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "feature_banner_1_TdpndM": {
-      "type": "feature-banner-1",
-      "blocks": {
-        "text_RhRHD7": {
-          "type": "text",
-          "settings": {
-            "text": "Equipped with 905nm wavelength high-precision lidar that works up to distances of 70m and accuracy to 10mm"
-          }
-        }
-      },
-      "block_order": [
-        "text_RhRHD7"
-      ],
-      "settings": {
-        "text": "Pinpoint Accurate 3D Scans"
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -123,27 +53,10 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "custom_section_9ADjW8",
-    "multicolumn",
-    "feature_banner_1_TdpndM",
-    "featured_collection",
-    "video"
+    "featured_collection"
   ]
 }
