@@ -5,9 +5,7 @@
 
 .feature-banner-actual-image{
   width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+
 }
 
 .feature-banner h1 {
@@ -19,7 +17,7 @@
 .feature-banner p{
    color:#007AFF;
 }
-,text{
+.text{
   position: absolute;
   top: 20%;
   left: 20%;
