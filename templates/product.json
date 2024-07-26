@@ -119,7 +119,8 @@
         "share"
       ],
       "custom_css": [
-        "p {color: #6d6e72;}"
+        "p {color: #6d6e72;}",
+        "image {border-radius: 40px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
