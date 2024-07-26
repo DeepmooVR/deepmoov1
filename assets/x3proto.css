@@ -22,10 +22,10 @@
     background-size: cover;
 }
 
-.title h1 {
+.title .title-name {
     font-family: inherit;
     text-align: center;
-    font-size: 4.8rem;
+    font-size: 5.2rem;
     padding-top: 3.6rem;
     background-image: linear-gradient(180deg, lightyellow, 65%, #c63f3f);
     background-size: 100%;
@@ -38,26 +38,28 @@
 }
 
 .frame-div {
-    height: 100vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
 }
 
 .frame {
     display:block;
-    width:90%;
+    width:80%;
     height: 80vh;   
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
 
-.title .title-white {
+.title .title-key {
     text-align: center;
     color: white;
-    font-size: 4.8rem;
+    font-size: 5.2rem;
     padding-top: 15rem;
-    background-image: linear-gradient(180deg, lightyellow, 65%, #4d7cff);
+    background-image: linear-gradient(180deg, lightyellow, 65%, #c63f3f);
     background-size: 100%;
     background-repeat: repeat;
     background-clip: text;
@@ -75,9 +77,13 @@
 }
 
 .img-parts, .img-specs {
-    width: 80vw;
+    width: 70vw;
     object-fit: contain;
     object-position: center;
+}
+
+.img-parts {
+    padding-top: 3.2rem;
 }
 
 .specs {
@@ -90,11 +96,11 @@
 }
 
     .effect {
-        -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
-           -moz-animation: fadein 2.5s; /* Firefox < 16 */
-            -ms-animation: fadein 2.5s; /* Internet Explorer */
-             -o-animation: fadein 2.5s; /* Opera < 12.1 */
-                animation: fadein 2.5s;
+        -webkit-animation: fadein 2.2s; /* Safari, Chrome and Opera > 12.1 */
+           -moz-animation: fadein 2.2s; /* Firefox < 16 */
+            -ms-animation: fadein 2.2s; /* Internet Explorer */
+             -o-animation: fadein 2.2s; /* Opera < 12.1 */
+                animation: fadein 2.2s;
     }
    
     @keyframes fadein {
@@ -105,7 +111,7 @@
     .tag {
         opacity: 0;
         transform: translate(0, 10vh);
-        transition: all 1s;
+        transition: all 1.2s;
       }
 
       .visible {
@@ -113,3 +119,61 @@
         transform: translate(0, 0);
       }
       
+.title .title-action {
+    text-align: left;
+    padding-left: 12rem;
+    font-size: 4.8rem;
+    padding-top: 16rem;
+    background-image: linear-gradient(180deg, lightyellow, 65%, #c63f3f);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.chip {
+    padding-top: 20rem;
+    background-color: black;
+    background-image: url("../assets/jg-4.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60%;
+}
+
+.chip-desc {
+    align-self: center;
+    margin-top: 11rem;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 800px;
+}
+
+.flex-item {
+    flex-grow: 1;
+}
+
+.title-chip {
+    text-align: left;
+    font-size: 4.6rem;
+    background-image: linear-gradient(180deg, lightyellow, 40%, #c63f3f);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.chip-desc-text{
+    margin-top: 2.5rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: #a6a6ac;
+}
