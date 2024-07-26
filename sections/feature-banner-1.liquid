@@ -9,11 +9,6 @@
   <body>
     <div class="feature-banner">
   <div class="banner1-content">
-    <div class="imagecombo">
-    <div class="feature-banner-image">
-      <img class="feature-banner-actual-image" src="{{ 'x3photo2.png' | asset_url }}" alt="Banner Image">
-    </div>
-    </div>
     <div class="text">
       <h2>Deep Moo Vr</h2>
       <h1>{{ section.settings.text }}</h1>
@@ -21,6 +16,12 @@
         <p>{{ block.settings.text }}</p>
         {% endfor %}
     </div>
+    <div class="imagecombo">
+    <div class="feature-banner-image">
+      <img class="feature-banner-actual-image" src="{{ 'x3photo2.png' | asset_url }}" alt="Banner Image">
+    </div>
+    </div>
+    
   </div>
      
 </div>
