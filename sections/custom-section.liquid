@@ -20,11 +20,11 @@
     </div>
     <div class="text">
       <h2>Deep Moo Vr</h2>
-      <h1>SPACCOM X3 Pro</h1>
-      <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models</p>
-   <a href="https://deepmoovr.myshopify.com/pages/x3proinfo" class="learnmore">
-                    <button >Learn more</button>
-                </a> 
+      <h1>{{ section.settings.text }}</h1>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+        {% endfor %}
+    <button class="learnmore">Learn more</button>
     </div>
   </div>
      
@@ -32,3 +32,28 @@
     
   </body>
 </html>
+
+
+{% schema %}
+  {
+    "name": "Custom Banner",
+    "settings": [{
+      "type": "text",
+      "id":"text",
+      "label":"Heading"
+    }],
+    "presets": [{
+      "name": "Custom Banner"
+    }],
+    "tag":"section",
+    "class": "custom-section",
+    "limit": 1,
+    "blocks":[{
+      "name": "Description",
+      "type":"text",
+      "settings": [{"type": "text",
+      "id":"text",
+      "label":"Description"}]
+    }]
+  }
+{% endschema %}

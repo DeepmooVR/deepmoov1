@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    {{ 'feature-banner-1.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+    <div class="feature-banner">
+  <div class="banner1-content">
+    <div class="imagecombo">
+    <div class="image">
+      <img src="{{ 'x3photo2.png' | asset_url }}" alt="Banner Image">
+    </div>
+    </div>
+    <div class="text">
+      <h2>Deep Moo Vr</h2>
+      <h1>{{ section.settings.text }}</h1>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+        {% endfor %}
+    <button class="learnmore">Learn more</button>
+    </div>
+  </div>
+     
+</div>
+        
+  </body>
+</html>
+
+
+{% schema %}
+  {
+    "name": "Feature Banner",
+    "settings": [{
+      "type": "text",
+      "id":"text",
+      "label":"Heading"
+    }],
+    "presets": [{
+      "name": "Custom Banner 2"
+    }],
+    "tag":"section",
+    "class": "custom-section",
+    "limit": 1,
+    "blocks":[{
+      "name": "Description",
+      "type":"text",
+      "settings": [{"type": "text",
+      "id":"text",
+      "label":"Description"}]
+    }]
+  }
+{% endschema %}

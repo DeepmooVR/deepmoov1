@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
-    {{ 'homepg-style.css' | asset_url | stylesheet_tag }}
+    {{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    <h1>hello world</h1>
-    <h2>hey</h2>
+    <div class="banner">
+      <div class="content">
+        <div class="imagecombo">
+          <div class="image">
+            <img src="{{ 'clearerX3.png' | asset_url }}" alt="Banner Image">
+          </div>
+          <div class="image-shadow">
+            <img src="{{ 'croppedshadow.png' | asset_url }}" alt="Shadow">
+          </div>
+        </div>
+        <div class="text">
+          <h2>Deep Moo Vr</h2>
+          <h1>SPACCOM X3 Pro</h1>
+          <p>
+            Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial
+            data files and high-quality 3D models
+          </p>
+          <button class="learnmore">Learn more</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
