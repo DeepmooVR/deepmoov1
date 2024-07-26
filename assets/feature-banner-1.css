@@ -3,8 +3,7 @@
   height: 800px;
   background-image: radial-gradient(
     ellipse farthest-corner at 70% 40%, /* Adjust position as needed */
-    #087FFF 0%,
-    #fff 100%
+    #087FFF 0%, #85c0ff 30%, transparent 40%
   );
   background-size: 100% 100%; /* Ensure the gradient covers the entire element */
   background-repeat: no-repeat; /* Prevent the gradient from repeating */
