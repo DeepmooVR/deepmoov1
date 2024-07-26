@@ -20,7 +20,9 @@
 .feature-banner p {
   color: #057DFF;
 }
-
+.text .h1{
+  width: 800px;
+}
 .feature-banner h1{
   font-size: 70px;
   margin-bottom: 20px;
