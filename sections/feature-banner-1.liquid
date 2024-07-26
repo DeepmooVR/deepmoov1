@@ -11,7 +11,7 @@
   <div class="banner1-content">
     <div class="imagecombo">
     <div class="feature-banner-image">
-      <img src="{{ 'x3photo2.png' | asset_url }}" alt="Banner Image">
+      <img class="feature-banner-actual-image" src="{{ 'x3photo2.png' | asset_url }}" alt="Banner Image">
     </div>
     </div>
     <div class="text">
@@ -20,7 +20,6 @@
       {% for block in section.blocks %}
         <p>{{ block.settings.text }}</p>
         {% endfor %}
-    <button class="learnmore">Learn more</button>
     </div>
   </div>
      
