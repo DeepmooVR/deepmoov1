@@ -6,7 +6,7 @@
 }
 
 :root {
-    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont; 
+    font-family: sans-serif, 'Inter', 'SF Pro Display'; 
     scroll-behavior: smooth;
 }
 
