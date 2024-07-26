@@ -30,13 +30,9 @@
   position: relative;
   top: 10%;
   left: 10%;
-  width: 900px;
   /* Ensure content text is properly positioned */
 }
 
-.text .h1{
-  width: 900px;
-}
 
 
 .banner1-content {
