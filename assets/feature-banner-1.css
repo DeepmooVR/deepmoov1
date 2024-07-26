@@ -39,7 +39,9 @@
   justify-content: space-between; /* This pushes the image to the bottom */
   height: 100%;
 }
-
+.feature-banner .text{
+  width: 30%;
+}
 .feature-banner-image {
   /* Make sure image container spans the full width */
   width: 100%;
