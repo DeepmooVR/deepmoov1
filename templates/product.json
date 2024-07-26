@@ -90,7 +90,8 @@
       ],
       "custom_css": [
         "p {color: #6d6e72;}",
-        "img {border-radius: 10px;}"
+        "img {border-radius: 10px;}",
+        "button:hover {background-color: #376CFC;}"
       ],
       "settings": {
         "enable_sticky_info": true,
