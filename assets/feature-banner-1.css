@@ -21,6 +21,10 @@
   color: #057DFF;
 }
 
+.feature-banner h1{
+  font-size: 100px;
+}
+
 .feature-banner .text {
   position: relative;
   top: 15%;
