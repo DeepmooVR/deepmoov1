@@ -1,7 +1,7 @@
 .feature-banner{
   width: 100%;
   height: 800px;
-  background-image: radial-gradient(087FFF, #B6D9FF, #fff);
+  background-image: radial-gradient(cyan 0%, transparent 20%, salmon 40%);
 }
 
 .feature-banner-actual-image{
