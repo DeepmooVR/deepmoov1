@@ -6,9 +6,9 @@
     #087FFF 0%,
     #fff 100%
   );
-  background-size: 50% 50%; /* Adjust the size of the gradient circle */
+  background-size: 100% 100%; /* Ensure the gradient covers the entire element */
+  background-repeat: no-repeat; /* Prevent the gradient from repeating */
   position: relative;
-  background-repeat: none;
 }
 .feature-banner-actual-image {
   width: 100%;
