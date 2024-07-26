@@ -24,6 +24,7 @@ background: linear-gradient(#9edeff,#007aff);
 .text{
   width: 35vw;
   text-align: left;
+  max-width: 600px;
 }
 .banner h1{
   font-weight: 500;
