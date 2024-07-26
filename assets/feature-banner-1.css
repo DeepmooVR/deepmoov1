@@ -8,10 +8,15 @@
   
 }
 
-.feature-banner h1, h3, h2, p {
+.feature-banner h1 {
   color:#007AFF;
 }
-
+.feature-banner h2{
+   color:#007AFF;
+}
+.feature-banner p{
+   color:#007AFF;
+}
 ,text{
   position: absolute;
   top: 20%;
