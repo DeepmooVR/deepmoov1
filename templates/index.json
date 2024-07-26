@@ -23,13 +23,13 @@
         "text_z3jwYk"
       ],
       "settings": {
-        "text": "SPACCOM X3 Pro"
+        "text": "DEEPMOO D3 Pro"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        "img{border-radius: 10px;}"
+        "img {border-radius: 10px;}"
       ],
       "settings": {
         "title": "Featured products",
