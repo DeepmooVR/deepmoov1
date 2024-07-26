@@ -17,7 +17,7 @@
 .feature-banner p{
    color:#007AFF;
 }
-.text{
+.feature-banner .text{
   position: absolute;
   top: 20%;
   left: 20%;
