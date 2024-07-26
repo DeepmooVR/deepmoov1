@@ -6,7 +6,7 @@
 }
 
 :root {
-    font-family: sans-serif, 'Inter', 'SF Pro Display'; 
+    font-family: 'Inter', 'SF Pro Display', sans-serif; 
     scroll-behavior: smooth;
 }
 
