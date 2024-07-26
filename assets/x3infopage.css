@@ -34,7 +34,7 @@ html {
 }
 
 .hero {
-    height: fit-content;
+    height: minmax(100vh, fit-content);
     padding: 0 0 5rem;
 }
 
@@ -79,7 +79,13 @@ html {
 }
 
 .x3-pro-display {
+    padding-top: 6rem;
+    background-color: white; 
     text-align: center;
+}
+
+.x3-pro-models {
+    background-color: #e7f1ff;
 }
 
 .x3-pro-display .title-heading {
@@ -152,7 +158,7 @@ html {
 }
 
 .x3-pro-parts, .x3-pro-chip, .x3-pro-hd, .x3-pro-speed {
-    background-color: black;
+    background-color: #8cc4ff;
 }
 
 .x3-pro-parts .img-parts,

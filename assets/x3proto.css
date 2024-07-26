@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont; 
+    scroll-behavior: smooth;
+}
+
+.hero {
+    min-height: 100vh;
+    height: minmax(100vh, fit-content); 
+}
+
+.x3-display {
+    background-image: url("../assets/jg-platform-og.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title h1 {
+    font-family: inherit;
+    text-align: center;
+    font-size: 4.8rem;
+    padding-top: 3.6rem;
+    background-image: linear-gradient(180deg, lightyellow, 65%, #c63f3f);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.frame-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    display:block;
+    width:90%;
+    height: 80vh;   
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.title .title-white {
+    text-align: center;
+    color: white;
+    font-size: 4.8rem;
+    padding-top: 15rem;
+    background-image: linear-gradient(180deg, lightyellow, 65%, #4d7cff);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.specs .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-parts, .img-specs {
+    width: 80vw;
+    object-fit: contain;
+    object-position: center;
+}
+
+.specs {
+    background-color: black;
+}
+
+.img-specs {
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+}
+
+    .effect {
+        -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+           -moz-animation: fadein 2.5s; /* Firefox < 16 */
+            -ms-animation: fadein 2.5s; /* Internet Explorer */
+             -o-animation: fadein 2.5s; /* Opera < 12.1 */
+                animation: fadein 2.5s;
+    }
+   
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    .tag {
+        opacity: 0;
+        transform: translate(0, 10vh);
+        transition: all 1s;
+      }
+
+      .visible {
+        opacity: 1;
+        transform: translate(0, 0);
+      }
+      
