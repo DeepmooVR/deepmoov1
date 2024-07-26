@@ -2,13 +2,13 @@
   width: 100%;
   height: 800px;
   background-image: radial-gradient(
-    farthest-corner at 70% 40%, /* Adjust this for different positions */
+    ellipse farthest-corner at 70% 40%, /* Adjust position as needed */
     #087FFF 0%,
     #fff 100%
   );
+  background-size: 50% 50%; /* Adjust the size of the gradient circle */
   position: relative;
 }
-
 .feature-banner-actual-image {
   width: 100%;
   /* Ensures the image maintains aspect ratio */
