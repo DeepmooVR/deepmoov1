@@ -52,5 +52,5 @@
     position: absolute; /* Ensures fixed positioning */
   width: 100%; /* Spans full width of the banner */
   bottom: 0; /* Positions image at the bottom of the banner */
-  left: 0; /* Ensures image starts from the left edge */
+  left: 10%; /* Ensures image starts from the left edge */
 }
