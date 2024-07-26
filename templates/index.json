@@ -204,6 +204,17 @@
     },
     "feature_banner_1_TdpndM": {
       "type": "feature-banner-1",
+      "blocks": {
+        "text_RhRHD7": {
+          "type": "text",
+          "settings": {
+            "text": "Equipped with 905nm wavelength high-precision lidar that works up to distances of 70m and accuracy to 10mm"
+          }
+        }
+      },
+      "block_order": [
+        "text_RhRHD7"
+      ],
       "settings": {
         "text": "sadasdsafs"
       }
