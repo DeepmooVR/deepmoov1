@@ -3,8 +3,8 @@
   height: 800px;
   background-image: radial-gradient(
     farthest-corner at 40px 40px,
-    #85C0FF 0%,
-    #fff 100%
+    #fff 0%,
+    #087FFF 100%
   );
 }
 
