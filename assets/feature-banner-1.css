@@ -23,7 +23,7 @@
 
 .feature-banner .text {
   position: relative;
-  top: 100px;
+  top: 15%;
   left: 10%;
   /* Ensure content text is properly positioned */
 }
