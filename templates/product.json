@@ -119,7 +119,7 @@
         "share"
       ],
       "custom_css": [
-        "p{color: #6D6E72;}"
+        "p {color: #6d6e72;}"
       ],
       "settings": {
         "enable_sticky_info": true,
