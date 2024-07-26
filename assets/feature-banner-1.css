@@ -3,7 +3,7 @@
   height: 800px;
   background-image: radial-gradient(
     ellipse farthest-corner at 70% 50%, /* Adjust position as needed */
-    #087FFF 0%,  transparent 40%
+    #057DFF 0%,  transparent 40%
   );
   background-size: 100% 100%; /* Ensure the gradient covers the entire element */
   background-repeat: no-repeat; /* Prevent the gradient from repeating */
@@ -18,7 +18,7 @@
 .feature-banner h1,
 .feature-banner h2,
 .feature-banner p {
-  color: #B5FE7B;
+  color: #057DFF;
 }
 
 .feature-banner .text {
