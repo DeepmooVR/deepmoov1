@@ -2,7 +2,7 @@
   width: 100%;
   height: 800px;
   background-image: radial-gradient(
-    farthest-corner at 60% 40%, /* Adjust this for different positions */
+    farthest-corner at 70% 40%, /* Adjust this for different positions */
     #087FFF 0%,
     #fff 100%
   );
