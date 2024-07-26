@@ -11,3 +11,9 @@
 h1, h3, h2, p {
   color:#007AFF;
 }
+
+,text{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
