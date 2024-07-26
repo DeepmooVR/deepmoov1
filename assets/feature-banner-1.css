@@ -10,7 +10,7 @@
   position: relative;
 }
 .feature-banner-actual-image {
-  width: 80%;
+  width: 80vw;
   /* Ensures the image maintains aspect ratio */
   object-fit: cover;
 }
