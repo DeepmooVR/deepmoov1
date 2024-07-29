@@ -64,6 +64,10 @@
   padding: 20px; /* Add padding around the content */
 }
 
+.bannerV2-contents h1{
+  font-size: 80px;
+}
+
 .bannerV2-contents h1, .bannerV2-contents h2, .bannerV2-contents p {
   margin: 0;
   padding: 10px;
