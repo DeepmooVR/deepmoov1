@@ -26,10 +26,8 @@ background: linear-gradient(#9edeff,#007aff);
   text-align: right;
   max-width: 600px;
 }
+
 .banner h1{
-  font-weight: 500;
-}
-.content h1{
   font-size: 80px;
 }
 
