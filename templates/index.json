@@ -110,7 +110,7 @@
       ],
       "custom_css": [
         "h2,p {color: black;}",
-        ".banner_box {backgruond-gradient: none;}"
+        ".banner__box {backgruond-gradient: none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner1_2x_c31b91f3-4d55-48c5-9261-c32c82e5aa58.png",
