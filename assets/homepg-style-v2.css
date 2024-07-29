@@ -47,6 +47,9 @@
 }
 .image-shadow{
   width: 50vw;
+  margin-top: -10%;
+  position: relative;
+  left: -10%;
 }
 
 .banner button{
