@@ -35,14 +35,6 @@
 
 
 .background-container {
-  align-content: center;
-  text-align: center;
-  align-items: center;
-    display: flex;
-  justify-content: center;
-  padding: 5rem 14rem;
-  position: relative;
-  left: -25vw;
   width: 100%;
   overflow: hidden; /* Hide overflow of background image */
   min-height: 620px;
@@ -61,6 +53,14 @@
 
 /* Content styling */
 .bannerV2-contents {
+
+    align-content: center;
+  text-align: center;
+  align-items: center;
+    display: flex;
+  justify-content: center;
+  padding: 5rem 14rem;
+  position: relative;
   width: 600px;
   
   position: relative;
