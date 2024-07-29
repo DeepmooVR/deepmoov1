@@ -10,6 +10,10 @@
     <div class="bannerV2-contents">
       <h2> DeepMoo VR</h2>    
       <h1>{{ section.settings.text }}</h1>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+      {% endfor %}
+     <button class="learnmore">Learn more</button>
     </div>
   </body>
 </html>
