@@ -31,6 +31,8 @@
 
 .image img{
   width: 50vw;
+  position: relative;
+  left: 10%;
 }
 .imagecombo{
   display: block;
