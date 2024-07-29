@@ -33,19 +33,10 @@
 .bannerv2 h1{
   font-weight: 500;
 }
-.content h1{
+.contentv2 h1{
   font-size: 80px;
 }
 
-.image{
-  width: 50vw;
-}
-.imagecombo{
-  display: block;
-  align-content: right;
-  text-align:right;
-  padding-right: 35px;
-}
 .image-shadow{
   width: 50vw;
 }
