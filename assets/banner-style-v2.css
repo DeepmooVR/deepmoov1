@@ -74,6 +74,8 @@
 }
 
 .learnmore {
+  border-radius: 30px;
+  margin-top: 20px;
   background-color: #000; /* Button background color */
   color: #fff; /* Button text color */
   border: none; /* Remove default border */
