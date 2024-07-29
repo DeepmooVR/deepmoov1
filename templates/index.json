@@ -92,8 +92,10 @@
         "buttons_MaqjcF"
       ],
       "custom_css": [
+        "h2 {font-size: 6.5rem;}",
+        "p {font-size: 1.8rem;}",
         "h2,p {color: black;}",
-        ".banner__box {backgruond-gradient: none;}"
+        ".banner__box {background: none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner1_2x_c31b91f3-4d55-48c5-9261-c32c82e5aa58.png",
