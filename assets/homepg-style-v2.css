@@ -17,6 +17,7 @@
 .banner{
   display: flex;
   align-items: center;
+  padding: 80px;
 }
 .text{
   width: 35vw;
