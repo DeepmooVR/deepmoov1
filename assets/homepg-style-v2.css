@@ -8,7 +8,7 @@
 }
 .banner{
   padding-top: 75px;
-  background: linear-gradient(#f3f6f8,#d0daea);
+  background: radial-gradient(#f3f6f8,#d0daea);
   height: 800px;
   width: 100%;
 }
