@@ -59,8 +59,19 @@
     },
     "custom_banner_v2_wCDUbE": {
       "type": "custom-banner-v2",
+      "blocks": {
+        "text_kt6ddf": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_kt6ddf"
+      ],
       "settings": {
-        "text": ""
+        "text": "DEEPMOO D3"
       }
     }
   },
