@@ -22,7 +22,7 @@
 .text{
   width: 35vw;
   text-align: right;
-  max-width: 700px;
+  max-width: 800px;
   position: relative;
   left: 10%;
   text-align: left;
@@ -30,7 +30,6 @@
 
 .banner h1{
   font-size: 80px;
-  text-align: center;
 }
 
 .image img{
