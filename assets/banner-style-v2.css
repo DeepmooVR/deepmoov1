@@ -79,7 +79,7 @@
   background-color: #000; /* Button background color */
   color: #fff; /* Button text color */
   border: none; /* Remove default border */
-  padding: 10px 20px; /* Add padding inside the button */
+  padding: 30px 40px; /* Add padding inside the button */
   cursor: pointer; /* Change cursor to pointer on hover */
   font-size: 16px; /* Adjust button text size */
 }
