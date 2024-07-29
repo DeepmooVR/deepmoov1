@@ -6,9 +6,8 @@
   margin: 0px;
 
 }
-.banner{
+.bannerv2{
   padding-top: 75px;
-background: linear-gradient(#9edeff,#007aff);
   height: 800px;
   width: 100%;
   /* border: 4px solid black; */
@@ -17,6 +16,8 @@ background: linear-gradient(#9edeff,#007aff);
 .banner-image{
   width: 100vw;
   height: auto;
+  position: relative;
+  z-index: -1;
 }
 
 .content{
