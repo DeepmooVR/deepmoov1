@@ -8,18 +8,15 @@
 }
 .banner{
   padding-top: 75px;
-background: linear-gradient(#9edeff,#007aff);
+  background: linear-gradient(#9edeff,#007aff);
   height: 800px;
   width: 100%;
-  /* border: 4px solid black; */
-  
 }
 
 
 .banner{
   display: flex;
-  align-items: center;
-  text-align: center;
+
 }
 .text{
   width: 35vw;
