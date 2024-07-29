@@ -4,45 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
-    {{ 'banner-style-v2.css' | asset_url | stylesheet_tag }}
+    {{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    <div class="background-container">
-      <img src="{{ 'banner.png' | asset_url }}" alt="Banner Image" class="background-image">
-      <div class="bannerV2-contents">
-        <h2> DeepMoo VR</h2>    
-        <h1>{{ section.settings.text }}</h1>
-        {% for block in section.blocks %}
-          <p>{{ block.settings.text }}</p>
-        {% endfor %}
-        <button class="learnmore">Learn more</button>
-      </div>
+    
+    <div class="banner">
+  <div class="content">
+    <div class="imagecombo">
+    <div class="image">
+      <img src="{{ 'bannerpng.png' | asset_url }}" alt="Banner Image"> what
     </div>
+    <div class="image-shadow">
+      <img src="{{ 'croppedshadow.png' | asset_url }}" alt="Shadow">
+    </div>
+    </div>
+    <div class="text">
+      <h2>Deep Moo Vr</h2>
+      <h1>SPACCOM X3 Pro</h1>
+      <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models</p>
+   <a href="https://deepmoovr.myshopify.com/pages/x3proinfo" class="learnmore">
+                    <button >Learn more</button>
+                </a> 
+    </div>
+  </div>
+     
+</div>
+    
   </body>
 </html>
-
-
-
-{% schema %}
-  {
-    "name": "Custom Banner v2",
-    "settings": [{
-      "type": "text",
-      "id":"text",
-      "label":"Heading"
-    }],
-    "presets": [{
-      "name": "Custom Banner"
-    }],
-    "tag":"section",
-    "class": "custom-section",
-    "limit": 1,
-    "blocks":[{
-      "name": "Description",
-      "type":"text",
-      "settings": [{"type": "text",
-      "id":"text",
-      "label":"Description"}]
-    }]
-  }
-{% endschema %}
