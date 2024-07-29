@@ -55,7 +55,7 @@
 
 /* Content styling */
 .bannerV2-contents {
-  width: 500px;
+  width: 600px;
   
   position: relative;
   z-index: 1; /* Ensure the content is above the background image */
