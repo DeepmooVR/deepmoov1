@@ -43,7 +43,7 @@
   position: relative;
   width: 100%;
   overflow: hidden; /* Hide overflow of background image */
-  min-height: 1000px;
+  min-height: 800px;
 }
 
 /* Style the background image */
