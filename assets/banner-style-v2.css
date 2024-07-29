@@ -10,7 +10,7 @@
   text-align: center; /* Centers the text */
   color: white; /* Makes sure text is visible on a potentially dark background */
   padding: 20px; /* Adds padding around the content */
-  border: 2px solid black;
+
   width: 800px;
 }
 
