@@ -110,11 +110,18 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_section_MCbxnw": {
+      "type": "custom-section",
+      "settings": {
+        "text": ""
+      }
     }
   },
   "order": [
     "custom_banner_v2_wCDUbE",
     "featured_collection",
-    "image_banner_48Bb7Q"
+    "image_banner_48Bb7Q",
+    "custom_section_MCbxnw"
   ]
 }
