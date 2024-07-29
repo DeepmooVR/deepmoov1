@@ -1,7 +1,7 @@
 
-.banner h1,
-.banner h2,
-.banner p{
+.bannerv2 h1,
+.bannerv2 h2,
+.bannerv2 p{
   color: white;
   margin: 0px;
 
@@ -16,6 +16,7 @@ background: linear-gradient(#9edeff,#007aff);
 }
 .banner-image{
   width: 100vw;
+  height: auto;
 }
 
 .content{
