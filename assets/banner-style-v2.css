@@ -35,6 +35,7 @@
 
 
 .background-container {
+  padding: 2rem;
   position: relative;
   width: 100%;
   overflow: hidden; /* Hide overflow of background image */
@@ -54,6 +55,7 @@
 
 /* Content styling */
 .bannerV2-contents {
+  
   position: relative;
   z-index: 1; /* Ensure the content is above the background image */
   text-align: center; /* Center-align the text */

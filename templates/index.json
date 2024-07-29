@@ -26,23 +26,6 @@
         "text": "DEEPMOO D3"
       }
     },
-    "custom_section_9ADjW8": {
-      "type": "custom-section",
-      "blocks": {
-        "text_z3jwYk": {
-          "type": "text",
-          "settings": {
-            "text": "Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models"
-          }
-        }
-      },
-      "block_order": [
-        "text_z3jwYk"
-      ],
-      "settings": {
-        "text": "DEEPMOO D3 Pro"
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -77,7 +60,6 @@
   },
   "order": [
     "custom_banner_v2_wCDUbE",
-    "custom_section_9ADjW8",
     "featured_collection"
   ]
 }
