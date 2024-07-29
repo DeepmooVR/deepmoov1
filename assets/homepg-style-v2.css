@@ -44,19 +44,19 @@ background: linear-gradient(#9edeff,#007aff);
   width: 50vw;
 }
 
-button{
+.banner button{
   padding: 20px 40px;
   border-radius: 10vw;
   border: none;
   background-color: #B5FE7B;
   color: #007aff;
 }
-button :hover{
+.banner button:hover{
   background-color: white;
 }
-.learnmore:hover{
+.banner .learnmore:hover{
   background-color:white;
 }
-.learnmore{
+.banner .learnmore{
   margin-top: 20px;
 }
