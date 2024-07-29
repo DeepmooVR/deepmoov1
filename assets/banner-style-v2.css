@@ -35,6 +35,9 @@
 
 
 .background-container {
+  align-content: center;
+  text-align: center;
+  align-items: center;
   padding: 5rem 14rem;
   position: relative;
   width: 100%;
