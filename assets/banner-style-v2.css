@@ -35,11 +35,11 @@
 
 
 .background-container {
-  padding: 5rem 12rem;
+  padding: 5rem 14rem;
   position: relative;
   width: 100%;
   overflow: hidden; /* Hide overflow of background image */
-  min-height: 600px;
+  min-height: 620px;
 }
 
 /* Style the background image */
