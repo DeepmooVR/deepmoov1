@@ -58,8 +58,9 @@
   padding: 20px 40px;
   border-radius: 10vw;
   border: none;
-  background-color: #B5FE7B;
-  color: #007aff;
+  background-color: #5687fd;
+  color: white;
+
 }
 .banner button:hover{
   background-color: white;
