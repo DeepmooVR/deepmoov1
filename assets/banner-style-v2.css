@@ -1,11 +1,5 @@
-
-.background-image img{
-  width: 100vw;
-  top: 0;
-  left: 0;
-}
-
-.bannerV2-contents {
+/* Apply a background image to the body or a specific container */
+body {
   margin: 0;
   padding: 0;
   background-image: url('{{ 'banner.png' | asset_url }}');
@@ -13,4 +7,28 @@
   background-position: center center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+.bannerV2-contents {
+  position: relative;
+  z-index: 1; /* Ensures the content is above the background image */
+  text-align: center; /* Centers the text */
+  color: white; /* Makes sure text is visible on a potentially dark background */
+  padding: 20px; /* Adds padding around the content */
+  border: 2px solid black;
+  width: 800px;
+}
+
+.bannerV2-contents h1, .bannerV2-contents h2, .bannerV2-contents p {
+  margin: 0;
+  padding: 10px;
+}
+
+.learnmore {
+  background-color: #000; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Removes default border */
+  padding: 10px 20px; /* Adds padding inside the button */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  font-size: 16px; /* Adjusts button text size */
 }
