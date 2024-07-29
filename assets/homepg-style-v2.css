@@ -23,6 +23,8 @@
   width: 35vw;
   text-align: right;
   max-width: 600px;
+  position: relative;
+  left: 10%;
 }
 
 .banner h1{
