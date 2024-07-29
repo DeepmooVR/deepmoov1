@@ -33,6 +33,8 @@ background: linear-gradient(#9edeff,#007aff);
 
 .image img{
   width: 50vw;
+  position: relative;
+  left: 20%;
 }
 .imagecombo{
   display: block;
