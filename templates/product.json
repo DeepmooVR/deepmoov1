@@ -55,6 +55,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_NjX4P4": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Overview:<\/strong>",
+            "text_style": "subtitle"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -84,6 +91,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_NjX4P4",
         "description",
         "collapsible-row-2",
         "share"
@@ -91,7 +99,7 @@
       "custom_css": [
         "p {color: #6d6e72;}",
         "img {border-radius: 10px;}",
-        "button:hover {background-color: #376CFC;}"
+        "button:hover {background-color: #376cfc;}"
       ],
       "settings": {
         "enable_sticky_info": true,
