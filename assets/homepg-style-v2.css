@@ -35,7 +35,7 @@
 .image img{
   width: 40vw;
   position: relative;
-  left: 10%;
+  left: 0%;
   margin: none;
   margin-top: 5%;
 }
@@ -43,7 +43,7 @@
   display: block;
   align-content: right;
   text-align:right;
-  padding-right: 35px;
+  padding-left: 35px;
 }
 .image-shadow{
   width: 50vw;
