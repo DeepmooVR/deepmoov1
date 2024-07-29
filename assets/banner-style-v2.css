@@ -1,7 +1,6 @@
 /* Apply a background image to the body or a specific container */
 body {
   margin: 0;
-  border: 5px solid;
   padding: 0;
   background-image: url('{{ 'banner.png' | asset_url }}');
   background-size: cover; /* Ensures the image covers the entire background */
