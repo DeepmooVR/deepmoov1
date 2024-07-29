@@ -16,7 +16,7 @@
 
 .banner{
   display: flex;
-
+  align-items: center;
 }
 .text{
   width: 35vw;
