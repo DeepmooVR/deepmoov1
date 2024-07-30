@@ -24,20 +24,16 @@
 }
 
 .buy-now {
-  display: inline-block;  
-  transition: all .5s ease;
-    color: #0071E3;
-    border: 3px solid #0071E3;
+  display: inline-block;
     text-decoration: none;
+    color: white;
+    font-size: var(--fs-400);
+    font-weight: medium;
+    font-family: inherit;
+    background: #0071E3;
     margin-top: 1.8rem;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-    font-size: 17px;
-    background-color : transparent;
-    padding: 15px 21px;
-    outline: none;
-    border-radius: 30px;
+    padding: 12px 21px;
+    border-radius: 20px;
 }
 
 .buy-now:hover {
