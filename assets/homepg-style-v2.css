@@ -89,6 +89,10 @@
   left: 0;
 }
 
+.image-combo{
+  padding: none;
+}
+
 .text-container{
   display: flex;
   text-align: center;
