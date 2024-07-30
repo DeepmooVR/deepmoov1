@@ -32,3 +32,29 @@
     
   </body>
 </html>
+
+
+
+{% schema %}
+  {
+    "name": "Banner-V2",
+    "settings": [{
+      "type": "text",
+      "id":"text",
+      "label":"Heading"
+    }],
+    "presets": [{
+      "name": "Banner-V2"
+    }],
+    "tag":"section",
+    "class": "custom-section",
+    "limit": 1,
+    "blocks":[{
+      "name": "Description",
+      "type":"text",
+      "settings": [{"type": "text",
+      "id":"text",
+      "label":"Description"}]
+    }]
+  }
+{% endschema %}
