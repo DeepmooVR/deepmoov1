@@ -175,13 +175,12 @@ font-size: 10vw;
 }
 @media screen and (max-width: 500px) {
 .banner{
-  height: calc(100vh - var(--header-height));
+  height: 100vh;
 }
 
 .imagecombo {
   transform: scale(0.5);
   position: relative;
-  top: 0px;
   bottom: 100px;
 }
   
