@@ -25,9 +25,9 @@
 
 .buy-now {
   display: inline-block;
+  transition: all .5s ease;
     text-decoration: none;
     color: white;
-    font-size: var(--fs-400);
     font-weight: medium;
     font-family: inherit;
     background: #0071E3;
@@ -37,7 +37,7 @@
 }
 
 .buy-now:hover {
-    color: #001F3F;
+    color: #1b7fe3;
     background-color: #fff;
 }
 
