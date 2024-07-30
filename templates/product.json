@@ -97,9 +97,7 @@
         "share"
       ],
       "custom_css": [
-        "p {color: #6d6e72;}",
-        "img {border-radius: 10px;}",
-        "button:hover {}"
+
       ],
       "settings": {
         "enable_sticky_info": true,
