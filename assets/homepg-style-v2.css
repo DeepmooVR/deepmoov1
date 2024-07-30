@@ -176,11 +176,11 @@ font-size: 10vw;
 
 .text{
   width: 80%;
-  margin: none;
+  margin: none !important;
 }
 
 .text * {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
   }
   
 .text h1{
