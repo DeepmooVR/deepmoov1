@@ -128,4 +128,8 @@ font-size: 10vw;
 .text{
   width: 80%;
 }
+
+.text h1{
+  margin-bottom: 20px;
+}
 }
