@@ -45,10 +45,9 @@
 }
 
 .image img{
-  width: 70vh;
+  width: 65vh;
   position: relative;
-  left: 0%;
-  margin: none;
+  left: 19%;
   margin-top: 5%;
 }
 .imagecombo{
