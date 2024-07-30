@@ -12,17 +12,16 @@
   <div class="content">
     <div class="imagecombo">
     <div class="image">
-      <img src="{{ 'bannerpng.png' | asset_url }}" alt="Banner Image">
+      <img src="{{ 'bannerpng.png' | asset_url }}" alt="Banner Image"> what
     </div>
     <div class="image-shadow">
       <img src="{{ 'croppedshadow.png' | asset_url }}" alt="Shadow">
     </div>
     </div>
     <div class="text">
-     <h1>{{ section.settings.text }}</h1>
-      {% for block in section.blocks %}
-        <p>{{ block.settings.text }}</p>
-        {% endfor %}
+      <h2>Deep Moo Vr</h2>
+      <h1>SPACCOM X3 Pro</h1>
+      <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models</p>
    <a href="https://deepmoovr.myshopify.com/pages/x3proinfo" class="learnmore">
                     <button >Learn more</button>
                 </a> 
@@ -34,28 +33,3 @@
   </body>
 </html>
 
-
-
-{% schema %}
-  {
-    "name": "Banner-V2",
-    "settings": [{
-      "type": "text",
-      "id":"text",
-      "label":"Heading"
-    }],
-    "presets": [{
-      "name": "Banner-V2"
-    }],
-    "tag":"section",
-    "class": "custom-section",
-    "limit": 1,
-    "blocks":[{
-      "name": "Description",
-      "type":"text",
-      "settings": [{"type": "text",
-      "id":"text",
-      "label":"Description"}]
-    }]
-  }
-{% endschema %}
