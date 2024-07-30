@@ -62,7 +62,8 @@
 
 .shadow{
   position: relative;
-  z-index: -1;
+  z-index: 0;
+  top: -30px;
 }
 .banner button{
   position: relative;
