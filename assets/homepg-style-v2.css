@@ -136,7 +136,7 @@ font-size: 10vw;
 }
 @media screen and (max-width: 500px) {
 .banner{
-  height: 600px;
+  height: 700px;
 }
 .text-container{
   width: 120%;
