@@ -40,6 +40,7 @@
   margin: none;
   margin-left: 200px;
   border: 2px solid blue;
+  max-width: 800px;
 }
 .image-shadow{
   width: 50vw;
