@@ -82,11 +82,12 @@
 .banner{
   height: 850px;
   flex-direction: column;
+  padding: none;;
 }
 
 
 .text{
-  width: 70vw;
+  width: 70%;
   text-align: center;
   max-width: 800px;
   position: relative;
