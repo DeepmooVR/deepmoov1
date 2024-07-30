@@ -72,7 +72,7 @@
 @media screen and (max-width: 1700px) {
 
 .banner{
-  padding: 80px 400px;
+  padding-right:400px;
 }
 .image img{
   width: 40vh;
