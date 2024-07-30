@@ -124,7 +124,13 @@
 font-size: 10vw;
 }
 }
+@medie screen and (max-width: 700px) {
 
+.banner{
+  height: 500px;
+}
+  
+}
 @media screen and (max-width: 500px) {
 .banner{
   height: 600px;
