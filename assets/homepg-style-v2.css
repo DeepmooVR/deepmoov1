@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 1000px) {
 .image img{
-  width: 90vw;
+  width: 80vw;
   margin: none;
   left: 0;
   border: 2 px solid;
@@ -86,7 +86,6 @@
   flex-direction: column;
   padding: 10px;
   padding-top: 50px;
-  border: 2px solid red;
 }
 .image-shadow{
   left: 0;
