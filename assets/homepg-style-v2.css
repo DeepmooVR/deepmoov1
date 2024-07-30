@@ -24,7 +24,8 @@
 }
 
 .buy-now {
-    transition: all .5s ease;
+  display: inline-block;  
+  transition: all .5s ease;
     color: #fff;
     border: 3px solid white;
     text-decoration: none;
