@@ -38,6 +38,7 @@
 .imagecombo{
   align-content: right;
   text-align:right;
+  margin: none;
   border: 2px solid blue;
   width: 50vw;
 }
