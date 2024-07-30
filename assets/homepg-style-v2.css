@@ -112,3 +112,9 @@
 font-size: 10vw;
 }
 }
+
+@media screen and (max-width: 500px) {
+.text-container{
+  width: 120%;
+}
+}
