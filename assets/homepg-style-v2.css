@@ -93,6 +93,7 @@
   left: -15%;
   align-items: center;
   margin: none;
+  border: 2px solid;
 }
 
 .text h1{
