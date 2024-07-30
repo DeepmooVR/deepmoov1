@@ -48,7 +48,6 @@
   left: 0%;
   margin: none;
   margin-top: 5%;
-  margin-bottom: 10px;
 }
 .imagecombo{
   align-self: right;
@@ -63,7 +62,7 @@
 .shadow{
   position: relative;
   z-index: 0;
-  top: -30px;
+  margin-top: -30px;
 }
 .banner button{
   position: relative;
