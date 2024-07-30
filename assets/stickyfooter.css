@@ -4,5 +4,5 @@
   width: 100vw;
   backdrop-filter: blur(10px);
   z-index: 1;
-  
+  padding-left: 30px;
 }
