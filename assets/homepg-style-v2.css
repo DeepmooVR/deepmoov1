@@ -30,10 +30,14 @@
     font-size: var(--fs-400);
     font-weight: medium;
     font-family: inherit;
-    padding-top: 2rem;
+    margin-top: 2rem;
     background: #0071E3;
     padding: 12px 21px;
     border-radius: 20px;
+}
+
+.buy-now {
+  
 }
 
 .banner h1{
