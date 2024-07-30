@@ -39,6 +39,7 @@
   align-content: right;
   text-align:right;
   padding-left: 35px;
+  border: 2px solid blue;
 }
 .image-shadow{
   width: 50vw;
@@ -78,6 +79,13 @@
   display: flex;
   align-items: center;
   padding: 80px;
+}
+
+  .imagecombo{
+  display: block;
+  align-content: right;
+  text-align:right;
+  padding-left: 35px;
 }
 }
 
