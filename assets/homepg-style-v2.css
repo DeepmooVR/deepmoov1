@@ -80,5 +80,6 @@
 }
 .banner{
   height: 1000px;
+  flex-direction: column;
 }
 }
