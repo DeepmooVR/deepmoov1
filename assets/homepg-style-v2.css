@@ -91,6 +91,7 @@
   align-items: center;
   margin: none;
   border: 5px solid;
+  justify-content: center;
  } 
 .text{
   width: 80%;
