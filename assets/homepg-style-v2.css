@@ -92,7 +92,7 @@
 }
 
 .imagecombo{
-  width: 100%;
+  width: 100vw;
   padding: 0;
   display: block;
   align-content: center;
