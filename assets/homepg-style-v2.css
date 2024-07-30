@@ -71,7 +71,8 @@
 }
 
 @media screen and (max-width: 1200px) {
- width: 40vh;
+.image img{
+  width: 40vh;}
 }
 
 
