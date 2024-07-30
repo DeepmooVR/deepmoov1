@@ -78,10 +78,10 @@
 .image img{
   width: 110vw;
   position: relative;
-  left: -20%;
+  left: -25%;
 }
 .banner{
-  height: 1000px;
+  height: 900px;
   flex-direction: column;
 }
 }
