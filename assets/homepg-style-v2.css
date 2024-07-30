@@ -26,8 +26,8 @@
 .buy-now {
   display: inline-block;  
   transition: all .5s ease;
-    color: #fff;
-    border: 3px solid white;
+    color: #000;
+    border: 3px solid black;
     text-decoration: none;
     margin-top: 1.8rem;
     text-transform: uppercase;
