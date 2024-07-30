@@ -22,6 +22,9 @@
       "block_order": [
         "text_kt6ddf"
       ],
+      "custom_css": [
+        ".text {margin: 0;}"
+      ],
       "settings": {
         "text": "DEEPMOO D3 Pro"
       }
