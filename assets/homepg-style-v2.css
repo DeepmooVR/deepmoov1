@@ -36,10 +36,8 @@
   margin-bottom: 10px;
 }
 .imagecombo{
-  display: block;
   align-content: right;
   text-align:right;
-  padding-left: 35px;
   border: 2px solid blue;
   width: 50vw;
 }
