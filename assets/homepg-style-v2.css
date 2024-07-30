@@ -71,3 +71,12 @@
 .banner .learnmore{
   margin-top: 20px;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+.image img{
+  width: 70vw;
+}
+}
+}
