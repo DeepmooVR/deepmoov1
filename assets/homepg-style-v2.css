@@ -17,10 +17,9 @@
 .text{
   width: 35vw;
   max-width: 800px;
-  position: relative;
-  left: 15%;
   text-align: left;
   border: 2px solid red;
+  margin-right: 50px;
 }
 
 .banner h1{
