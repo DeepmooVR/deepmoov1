@@ -1,20 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    {{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
-  </head>
-  <body>
-<div class='footer-container'>
- <h3>{{ section.settings.text }}</h3>
-      {% for block in section.blocks %}
-        <p>{{ block.settings.text }}</p>
-        {% endfor %}
-</div>
- </body>
-</html>
+
 .banner h1,
 .banner h2,
 .banner p{
@@ -56,7 +40,6 @@
   margin: 0;
   width: 45vw;
   max-width: 700px;
-  border: 2px solid green;
 }
 
 .shadow{

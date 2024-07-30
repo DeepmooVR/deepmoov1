@@ -1,6 +1,42 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    {{ 'homepg-style-v2.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+<div class='footer-container'>
+ <h3>{{ section.settings.text }}</h3>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+        {% endfor %}
+</div>
+ </body>
+</html>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Buy Footer",
+    "settings": [{
+      "type": "text",
+      "id":"text",
+      "label":"Heading"
+    }],
+    "presets": [{
+      "name": "Buy Footer"
+    }],
+    "tag":"section",
+    "class": "custom-section",
+    "limit": 1,
+    "blocks":[{
+      "name": "sub header",
+      "type":"text",
+      "settings": [{"type": "text",
+      "id":"text",
+      "label":"Sub Header"}]
+    }]
   }
 {% endschema %}
