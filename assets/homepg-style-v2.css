@@ -169,13 +169,13 @@ font-size: 10vw;
 @media screen and (max-width: 800px) {
 
 .banner{
-  height: 700px;
+  height: 100vh;
 }
   
 }
 @media screen and (max-width: 500px) {
 .banner{
-  height: 700px;
+  height: 100vh;
 }
 
 .imagecombo {
