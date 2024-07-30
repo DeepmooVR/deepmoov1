@@ -32,11 +32,12 @@
 }
 
 .image img{
-  width: 40vh;
+  width: 45vh;
   position: relative;
   left: 0%;
   margin: none;
   margin-top: 5%;
+  margin-bottom: 10px;
 }
 .imagecombo{
   display: block;
@@ -70,13 +71,7 @@
 }
 
 @media screen and (max-width: 1500px) {
-/* .image img{
-  width: 40vw;
-  position: relative;
-  left: 0%;
-  margin: none;
-  margin-top: 5%;
-} */
+ width: 40vh;
 }
 
 
