@@ -103,7 +103,7 @@
   width: 100%;
   align-items: center;
   margin: none;
-  border: 5px solid;
+
   justify-content: center;
  } 
 .text{
@@ -112,7 +112,6 @@
   max-width: 800px;
   align-items: center;
   margin: none;
-  border: 2px solid;
   left: 0;
 }
 
