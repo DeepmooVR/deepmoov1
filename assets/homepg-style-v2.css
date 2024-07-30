@@ -71,7 +71,7 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 .image img{
   width: 80vw;
   margin: none;
