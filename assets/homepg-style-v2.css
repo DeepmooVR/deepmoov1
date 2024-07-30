@@ -91,6 +91,9 @@
 
 .image-combo{
   padding: none;
+  display: block;
+  align-content: center;
+  text-align: center;
 }
 
 .text-container{
