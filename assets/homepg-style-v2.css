@@ -59,14 +59,12 @@
   max-width: 700px;
   border: 2px solid green;
 }
-.image-shadow{
-  width: 45vh;
-  margin: 0;
-  z-index: -1;
-  margin-bottom: 5%;
-  border: 2px solid pink;
-}
 
+.shadow{
+  position: relative;
+  z-index: -1;
+  top: -10px;
+}
 .banner button{
   position: relative;
   left: 0%;
