@@ -47,8 +47,6 @@
 .image-shadow{
   width: 50vw;
   margin-top: -10%;
-  position: relative;
-  left: -15%;
   z-index: -1;
   margin-bottom: 5%;
 }
