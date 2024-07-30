@@ -1,4 +1,6 @@
 .footer-container{
   position: fixed;
   bottom: 0;
+  width: 100vw;
+  background-filter: blur(20px);
 }
