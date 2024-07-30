@@ -78,6 +78,7 @@
   width: 90vw;
   margin: none;
   left: 0;
+  border: 2 px solid;
 }
 .banner{
   height: 850px;
