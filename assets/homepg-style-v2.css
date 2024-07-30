@@ -83,7 +83,7 @@
   height: 850px;
   display: flex;
   flex-direction: column;
-  padding: none;
+  padding: 0px;
 }
 .image-shadow{
   left: 0;
