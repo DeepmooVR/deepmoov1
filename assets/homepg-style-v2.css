@@ -83,14 +83,14 @@
   height: 850px;
   display: flex;
   flex-direction: column;
-  padding: 0px;
+  padding: 10px;
 }
 .image-shadow{
   left: 0;
 }
 
 .image-combo{
-  padding: none;
+  padding: 0;
   display: block;
   align-content: center;
   text-align: center;
