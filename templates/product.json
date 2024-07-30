@@ -178,11 +178,29 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "stickyfooter_pdiHUc": {
+      "type": "stickyfooter",
+      "blocks": {
+        "text_LbN8WN": {
+          "type": "text",
+          "settings": {
+            "text": "Buy online and get fast, free, contactless delivery."
+          }
+        }
+      },
+      "block_order": [
+        "text_LbN8WN"
+      ],
+      "settings": {
+        "text": "DEEPMOO D3 pro"
+      }
     }
   },
   "order": [
     "main",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "stickyfooter_pdiHUc"
   ]
 }
