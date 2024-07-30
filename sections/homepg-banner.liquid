@@ -19,9 +19,10 @@
     </div>
     </div>
     <div class="text">
-      <h2>Deep Moo Vr</h2>
-      <h1>SPACCOM X3 Pro</h1>
-      <p>Equipped with high-precision lidar and a CMOS color lens, the X3 Pro can instantly generate cloud psatial data files and high-quality 3D models</p>
+     <h1>{{ section.settings.text }}</h1>
+      {% for block in section.blocks %}
+        <p>{{ block.settings.text }}</p>
+        {% endfor %}
    <a href="https://deepmoovr.myshopify.com/pages/x3proinfo" class="learnmore">
                     <button >Learn more</button>
                 </a> 
