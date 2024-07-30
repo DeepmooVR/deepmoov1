@@ -12,7 +12,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 80px 150px;
+  padding: 80px 250px;
 }
 .text{
   width: 35vw;
@@ -35,8 +35,8 @@
   margin-bottom: 10px;
 }
 .imagecombo{
-  align-content: center;
-  text-align:center;
+  align-content: right;
+  text-align:right;
   margin: none;
   border: 2px solid blue;
   width: 50vw;
