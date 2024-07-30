@@ -77,6 +77,8 @@
 @media screen and (max-width: 1000px) {
 .image img{
   width: 70vw;
+  position: relative;
+  left: -5%;
 }
 .banner{
   height: 1000px;
