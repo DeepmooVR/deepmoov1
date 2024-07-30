@@ -26,17 +26,19 @@
 .buy-now {
     display: inline-block;
     text-decoration: none;
+  transition: all .5s ease;
+  border: 3px solid #0071E3;
     color: white;
     font-size: var(--fs-400);
     font-weight: medium;
     font-family: inherit;
     margin-top: 1.8rem;
-    background: #0071E3;
+    background-color: transparent;
     padding: 12px 21px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
-.buy-now {
+.buy-now::hover {
   
 }
 
