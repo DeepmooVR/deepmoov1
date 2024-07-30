@@ -7,13 +7,12 @@
 
 }
 .banner{
-  padding-top: 75px;
   background: radial-gradient(#f3f6f8,#d0daea);
   height: 800px;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 80px;
+  padding: 80px 150px;
 }
 .text{
   width: 35vw;
