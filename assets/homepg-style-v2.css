@@ -23,6 +23,19 @@
   margin-right: 50px;
 }
 
+.buy-now {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: var(--fs-400);
+    font-weight: medium;
+    font-family: inherit;
+    background: #0071E3;
+    margin-top: 3rem;
+    padding: 12px 21px;
+    border-radius: 20px;
+}
+
 .banner h1{
   font-size: 6.6vw;
 }
