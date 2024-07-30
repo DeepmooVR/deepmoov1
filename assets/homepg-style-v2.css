@@ -69,14 +69,14 @@
   margin-top: 20px;
 }
 
-@media sceen and (max-width: 1500px) {
-.image img{
+@media screen and (max-width: 1500px) {
+/* .image img{
   width: 40vw;
   position: relative;
   left: 0%;
   margin: none;
   margin-top: 5%;
-}
+} */
 }
 
 
