@@ -41,6 +41,8 @@
   text-align:right;
   margin: 0;
   border: 2px solid blue;
+  width: 35vw;
+  max-width: 800px;
 }
 .image-shadow{
   width: 50vw;
