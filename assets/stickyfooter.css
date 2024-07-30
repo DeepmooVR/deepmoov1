@@ -2,5 +2,5 @@
   position: fixed;
   bottom: 0;
   width: 100vw;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
 }
