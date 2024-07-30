@@ -125,4 +125,8 @@ font-size: 10vw;
 .text-container{
   width: 120%;
 }
+
+.text{
+  width: 80%;
+}
 }
