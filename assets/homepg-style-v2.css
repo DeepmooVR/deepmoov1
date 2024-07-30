@@ -79,6 +79,8 @@
   margin: none;
   left: 0;
   border: 2 px solid;
+  position: relative;
+  left: -5%;
 }
 .banner{
   height: 850px;
