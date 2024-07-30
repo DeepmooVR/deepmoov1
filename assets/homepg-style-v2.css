@@ -39,8 +39,7 @@
   align-self: right;
   align-content: right;
   text-align:right;
-  margin: none;
-  margin-left: 200px;
+  margin: 0;
   border: 2px solid blue;
 }
 .image-shadow{
@@ -83,7 +82,7 @@
   padding: 80px;
 }
 
-  .imagecombo{
+.imagecombo{
   align-content: right;
   text-align:right;
   padding-left: 35px;
