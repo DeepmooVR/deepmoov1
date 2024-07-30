@@ -177,6 +177,11 @@ font-size: 10vw;
 .banner{
   height: 700px;
 }
+
+.img {
+  transform: scale(0.7);
+}
+  
 .text-container{
     display: flex;
   flex-direction: column;
