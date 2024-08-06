@@ -46,7 +46,7 @@
 }
 
 .image img{
-  width: 65vw;
+  width: 65vh;
   min-width: 30vw;
 }
 
@@ -82,6 +82,11 @@
 
 @media screen and (max-width: 1500px) {
 
+.image img{
+  width: 55vh;
+  min-width: 30vw;
+}
+  
 .banner{
   padding-top: 75px;
   background: radial-gradient(#f3f6f8,#d0daea);
