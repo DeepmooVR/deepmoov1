@@ -47,6 +47,7 @@
 
 .image img{
   width: 85%;
+  height: auto;
   min-width: 40vw;
 }
 
