@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 1000px) {
 .image img{
-  width: minmax(40vw, 40vh);
+  width: clamp(30vw, 40vh, 50vw);
 }
 .banner{
   height: 100vh;
