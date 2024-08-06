@@ -115,7 +115,7 @@
   left: -5%;
 }
 .banner{
-  height: 850px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 10px;
