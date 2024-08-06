@@ -45,7 +45,7 @@
 }
 
 .image img{
-  width: 65%;
+  width: 85%;
   position: relative;
   left: 19%;
   margin-top: 5%;
@@ -87,9 +87,9 @@
 
 @media screen and (max-width: 1500px) {
 
-/* .image img{
-  width: 65vh;
-} */
+.image img{
+  width: 85%;
+}
 
 .banner{
   padding-top: 75px;
