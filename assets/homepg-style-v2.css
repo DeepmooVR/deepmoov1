@@ -83,8 +83,7 @@
 @media screen and (max-width: 1500px) {
 
 .image img{
-  width: 55vw;
-  min-width: 30vw;
+  width: clamp(20vw, 55vh, 40vw);
 }
   
 .banner{
