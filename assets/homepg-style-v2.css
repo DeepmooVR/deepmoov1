@@ -87,10 +87,6 @@
 
 @media screen and (max-width: 1500px) {
 
-.image img{
-  width: 85%;
-}
-
 .banner{
   padding-top: 75px;
   background: radial-gradient(#f3f6f8,#d0daea);
