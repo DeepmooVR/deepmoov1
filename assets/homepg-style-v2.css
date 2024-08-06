@@ -48,7 +48,15 @@
 .image img{
   width: 90%;
   min-width: 40vw;
-  flex-
+}
+
+.imagecombo{
+  align-self: right;
+  align-content: right;
+  text-align:right;
+  margin: 0;
+  width: 45vw;
+  max-width: 700px;
 }
 
 .banner button{
