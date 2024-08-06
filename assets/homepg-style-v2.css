@@ -80,7 +80,7 @@
   margin-top: 20px;
 }
 
-/* @media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
 
 .banner{
   padding-top: 75px;
@@ -97,7 +97,7 @@
   text-align:right;
   padding-left: 35px;
 }
-} */
+}
 
 
 @media screen and (max-width: 1000px) {
