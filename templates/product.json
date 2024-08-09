@@ -153,14 +153,15 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 64,
+        "padding_top": 72,
         "padding_bottom": 0
       }
     },
     "custom_liquid_mceefU": {
       "type": "custom-liquid",
       "custom_css": [
-        "img {display: block; margin-left: auto; margin-right: auto; width: 75%; height: 80%;}"
+        "img {display: block; margin-left: auto; margin-right: auto; width: 90%;}",
+        "@media only screen and (max-width: 600px) {img {width: 100% }}"
       ],
       "settings": {
         "custom_liquid": "<img src=\"{{ '11002x.png' | asset_url }}\" \/>",
