@@ -161,7 +161,7 @@
       "type": "custom-liquid",
       "custom_css": [
         "img {display: block; margin-left: auto; margin-right: auto; width: 90%;}",
-        "@media only screen and (max-width: 600px) {img {width: 100% }}"
+        "@media only screen and (max-width: 500px) {img {width: 100%; }}"
       ],
       "settings": {
         "custom_liquid": "<img src=\"{{ '11002x.png' | asset_url }}\" \/>",
