@@ -115,6 +115,60 @@
         "padding_bottom": 12
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_qHthGN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7grTMH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Product Info",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7grTMH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_mceefU": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "img {display: block; margin-left: auto; margin-right: auto; width: 80%; height: 80%;}"
+      ],
+      "settings": {
+        "custom_liquid": "<img src=\"{{ '11002x.png' | asset_url }}\" \/>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_J4ec4w": {
       "type": "collapsible-content",
       "blocks": {
@@ -155,30 +209,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
     }
   },
   "order": [
     "main",
-    "collapsible_content_J4ec4w",
-    "related-products"
+    "related-products",
+    "rich_text_qHthGN",
+    "custom_liquid_mceefU",
+    "collapsible_content_J4ec4w"
   ]
 }
