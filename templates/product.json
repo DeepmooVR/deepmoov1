@@ -160,7 +160,7 @@
     "custom_liquid_mceefU": {
       "type": "custom-liquid",
       "custom_css": [
-        "img {display: block; margin-left: auto; margin-right: auto; width: 80}"
+        "img {display: block; margin-left: auto; margin-right: auto; width: 90%;}"
       ],
       "settings": {
         "custom_liquid": "<img src=\"{{ '11002x.png' | asset_url }}\" \/>",
