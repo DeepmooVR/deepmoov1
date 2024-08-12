@@ -160,10 +160,12 @@
     "custom_liquid_mceefU": {
       "type": "custom-liquid",
       "custom_css": [
-        "img {display: block; margin-left: auto; margin-right: auto; width: 90%;}"
+        ".desktop {display: block; margin-left: auto; margin-right: auto; width: 90%;}",
+        ".mobile {display: none;}",
+        "@media only screen and (max-width: 600px) {.desktop {display: none; } .mobile {display: block; margin-left: auto; margin-right: auto; width: 90% }}"
       ],
       "settings": {
-        "custom_liquid": "<img src=\"{{ '11002x.png' | asset_url }}\" \/>",
+        "custom_liquid": "<img class=\"desktop\" src=\"{{ '11002x.png' | asset_url }}\" \/>\n<img class=\"mobile\" src=\"{{ '11002x - mobile.png' | asset_url}}\" \/>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
