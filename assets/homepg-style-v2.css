@@ -25,6 +25,10 @@
   margin-right: 50px;
 }
 
+.text p {
+  font-size: 2rem;
+}
+
 .buy-now {
   display: inline-block;
   transition: all .5s ease;
