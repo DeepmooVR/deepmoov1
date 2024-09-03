@@ -6,6 +6,7 @@
   margin: 0px;
 
 }
+
 .banner{
   background: radial-gradient(#f3f6f8,#d0daea);
   height: 95vh;
@@ -22,6 +23,10 @@
   max-width: 800px;
   text-align: left;
   margin-right: 50px;
+}
+
+.text p {
+  font-size: 20px;
 }
 
 .buy-now {
