@@ -15,7 +15,7 @@
         "text_kt6ddf": {
           "type": "text",
           "settings": {
-            "text": "Equipped with high-precision lidar and a CMOS color lens, the D3 Pro can instantly generate cloud spatial data files and high-quality 3D models"
+            "text": "Equipped with high-precision lidar and a 1-inch CMOS sensor, the D3 Pro can scan space and generate  high-quality 3D models"
           }
         }
       },
@@ -26,7 +26,7 @@
         ".text {margin: 0;}"
       ],
       "settings": {
-        "text": "DEEPMOO D3 Pro"
+        "text": "D3 Pro Laser Scanner"
       }
     },
     "featured_collection": {
